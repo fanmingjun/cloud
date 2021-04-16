@@ -1,0 +1,11 @@
+spring:
+  application:
+  ##服务名称
+    name: mayi-member
+  cloud:
+    nacos:
+      discovery:
+      ##naocs注册地址
+        server-addr: 127.0.0.1:8848
+server:
+  port: 8080
